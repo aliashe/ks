@@ -1,0 +1,544 @@
+/*
+Theme Name: As The Crow Flies Theme
+Author: Ali Ashe
+Version: 1
+© 2016 Ali Ashe
+*/
+
+.alert {
+    margin-bottom: -17px;
+}
+.wpcf7-validation-errors, .screen-reader-response, wpcf7-response-output {
+    display: none !important;
+}
+.mejs-container .mejs-controls
+{
+	width: 94% !important;
+	bottom: 12px !important;
+}
+.wp-playlist-tracks .wp-playlist-item.menu-item.list-group-item:first-child {
+	border-top:0 !important;
+margin-top: -13px;
+}
+.wp-playlist {
+	border:0 !important;
+	padding:0 !important;
+}
+
+.wp-playlist-current-item {
+    margin-bottom: -22px !important;
+    height:auto !important;
+    color: #000 !important;
+}
+.wp-playlist-current-item .wp-playlist-caption .wp-playlist-item-title {
+	    text-align: center;
+}
+.wp-playlist-current-item .wp-playlist-caption  {
+	    max-width: 100% !important;
+}
+.wp-playlist-current-item img {
+	display:none;	
+}
+
+.mejs-time-rail, .mejs-duration-container, .mejs-volume-button, .mejs-mute {
+	display:none !important;
+}
+.mejs-container .mejs-controls .mejs-time.mejs-currenttime-container {
+    color: #000 !important;
+    float: right;
+}
+.wp-playlist-item-album, .wp-playlist-item-artist {
+	display:none !important;
+}
+
+.mejs-play button, .mejs-pause button {
+    display: none !important;
+}
+
+.mejs-play:after, .mejs-pause:after {
+content: "\f04b";
+    	font-family: "FontAwesome";
+font-size: 20px;
+    color: #999;
+    line-height: 15px;
+cursor: pointer;
+    margin-left: 22px;
+    display: inline-block;
+}
+
+.mejs-pause:after {
+	content: "\f04c";
+}
+
+.mejs-container, .mejs-embed, .mejs-embed body, .mejs-container .mejs-controls {
+    background: transparent !important;
+}
+
+.about .side .row {
+    padding-bottom: 9px;
+    margin-left: -9px;
+}
+.row {
+	width: 100%;
+	    margin-left: 0;
+	    margin-right: 0;
+}
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+.nav-tabs > li {
+    float: none !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > li > a:hover  {
+	    border-color: transparent;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.section {
+	padding:35px 0 0 0;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #C0BFBE !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #C0BFBE !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #C0BFBE !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #C0BFBE !important;
+}
+
+.contact .side .fa-facebook {
+	color:#DFDFDE;
+	    font-size: 39px;
+}
+
+.contact .side h2 {
+	color:#A0A09F;
+	font-weight:normal;
+	font-size: 19px !important;
+	padding-bottom: 13px;
+}
+
+.contact .side .row.form {
+	margin-left:0;
+	margin-right:0;
+}
+
+.contact .form-horizontal .form-group {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.contact .fa-envelope {
+	color:#DEDEDD;
+	margin-top: -6px;
+    font-size: 63px;
+}
+.contact input, .contact textarea {
+	border: 1px solid #DCDBDB;
+	font-size:16px;
+}
+.contact .col-md-7, .contact .side {
+	border:1px solid #BCBEC0;
+	box-shadow: 7px 7px 18px 0px rgba(0,0,0,0.05);
+	    margin-bottom: 20px;
+}
+.contact > div > div > div.col-md-7, .facebook {
+	background:white;
+}
+.contact .side {
+	background:white;
+}
+
+.contact h1 {
+	color:#A0A09F;
+	font-weight:300;
+	padding-bottom: 9px;
+	margin-top: 7px;
+}
+
+.contact h4 {
+	color:#C0BFBE;
+}
+.contact .btn {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.contact .row.form {
+	background:#EFEEEE;	
+	}
+
+.contact {
+	background-size: cover !important;
+	background-position:top !important;
+	padding-top:175px !important;
+	margin-top:-175px !important;	
+}
+
+textarea.form-control {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 5px;
+}
+
+.fa-play {
+    font-size: 22px;
+    color: #666;
+    line-height: 15px;
+}
+
+.badge {
+	background:white;
+	color:black;
+	font-weight:normal;
+	font-size:13px;
+}
+
+.list-group-item,.wp-playlist-item-title  {
+    border-left: none;
+    border-right: none;
+	border-color: #ccc;
+	padding: 7px 15px !important;
+	text-align: left;
+}
+
+.list-group-item,.wp-playlist-item-title  {
+	font-size: 16px !important;
+    color: #777 !important;
+}
+
+.list-group-item a {
+ color: #777;
+}
+
+.list-group-item a:hover {
+ text-decoration:none;
+}
+
+.list-group-item strong {
+	font-size: 17px;
+    color: #000;
+	font-weight: 500;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.player-first {
+	border-top:none;
+	    padding-bottom: 14px;
+		text-align: center;
+	}
+
+
+
+.atcf {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: bottom !important;
+    padding-bottom: 300px;
+}
+
+.like-the-river h1 {
+	padding-bottom:9px;
+}
+.about .side {
+	background: rgba(255,255,255,0.8);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 4px;
+}
+
+.about p, .rain-on-water p, .like-the-river p {
+	font-size:18px !important;
+	color:#555;
+}
+.about .side .row {
+    padding-bottom: 9px;
+}
+
+.item {
+  position: absolute;
+  clip: rect(10px, 190px, 190px, 10px);
+  }
+ 
+.about h6 {
+	margin-top: -13px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 19px !important;
+    font-weight: 200;
+    line-height: 33px;
+    color:#555;
+}
+
+.cover p {
+	padding-top:11px;
+}
+
+.no-pad {
+	padding-left:0 !important;
+	padding-right:0 !important;
+	margin-left:0;
+	margin-right:0;
+}
+
+
+h2 {
+    font-size: 20px !important;
+    font-weight: normal;
+    line-height: 28px;
+
+}
+
+h1 {
+    font-size: 24px !important;
+    font-weight: bold;
+}
+
+h5 {
+	padding:8px 0px 10px 0;
+}
+
+.news .side h5 {
+	padding:0px 0px;
+	margin:0;
+	color: #888;
+	    font-size: 15px;
+	    font-weight: 200;
+}
+
+
+.container.cover {
+min-height: calc(100% - 200px) !important;
+margin-left: 7%;
+}
+
+.shop-footer {
+	background:url(../images/Shop-footer.jpg);
+	background-size:cover !important;
+	margin-bottom: -35px;
+}
+
+.btn {
+	font-size:17px;
+	line-height:45px;
+}
+.btn i {
+	font-size: 36px;
+	    vertical-align: middle;
+	padding-top: 5px;
+}
+
+.btn .badge {
+	margin-top: 15px;
+	    margin-right: 11px;
+}
+
+.section .shop {
+	background-color:#faf9f8;
+	padding-top:200px !important;
+	margin-top:-200px !important;
+}
+.navbar {
+	background:transparent !important;
+	border:none;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size:17px;
+	text-transform:uppercase;
+	color:#545951 !important;
+	margin-bottom: -20px;
+	margin-top: -13px;
+}
+
+.navbar-brand {
+	height:100px;
+}
+.navbar li.active a {
+	background:none !important;
+	font-weight:bold;
+}
+.navbar, .navbar a {
+	color:#545951 !important;
+}
+
+.container {
+    max-width: 1130px !important;
+	padding: 0 15px 0 15px;
+}
+
+.nav li a {
+	height:130px;
+	vertical-align: middle;
+	 display: table-cell;
+}
+
+p {
+	font-size:16.5px;
+}
+
+.nav > li {
+    position: relative;
+    display: inline-block;
+}
+
+.news h1 {
+    padding-top: 0;
+    margin-top: 5px;
+}
+/* Small Devices, Tablets */
+   @media only screen and (min-width : 768px) and (max-width : 990px) {
+	.contact {
+		padding-top:200px !important;
+		margin-top:-200px !important;	
+    background-size: 219% !important;
+    background-position: top left !important;
+	}
+	.navbar-right {
+		float:left !important;
+	}
+	.nav {
+		margin-bottom:-30px;
+		margin-top:-15px;
+	}
+	.container.cover {
+	min-height: calc(100% - 200px) !important;
+	margin-left: auto;
+	}
+	.news .side img {
+	    width: 100%;
+	    height: 0;
+	    padding-bottom: 57.14%;
+	   margin-bottom: 50px;
+	}
+	.news .side h5 {
+	    padding-bottom: 30px;
+	}
+	.side {
+	    padding: 0 32px;
+	}
+	.news .side p {
+	    padding-bottom: 20px;
+	}
+	.nav li:first-child a {
+		padding-left:0;
+	}
+	.about .side .row {
+	    width:50%;
+	display:inline-block;
+	}
+	.about .side .row.musicians {
+	    width:100%;
+	}
+	.musicians {
+		text-align:center;
+	}
+	.musicians h4 {
+		font-size:20px;
+	}
+	.atcf {
+	    padding-bottom: 275px;
+	}
+	.contact h1 {
+	    padding-bottom: 1px;
+	    margin-top: 15px;
+	}
+   }
+
+
+/* Extra Devices, Phones */
+@media only screen and (max-width : 767px) {
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > li > a:hover  {
+		    border: 0;
+	}
+	.contact {
+		padding-top:200px !important;
+		margin-top:-200px !important;
+	}
+	nav-tabs > li {
+	    float: none !important;
+	}
+	.contact .fa-envelope {
+	    margin-top: -22px;
+	    font-size: 53px;
+	    margin-left: 9px;
+	}
+	.contact h1 {
+	    padding-bottom: 0;
+	    margin-bottom: 0;
+	}
+	.atcf {
+		background-size: 250% 35% !important;
+		background-repeat:no-repeat;
+		background-position:bottom;
+		    padding-bottom: 300px;
+	}
+	.musicians {
+		text-align:center;
+	}
+	.musicians h4 {
+		font-size:20px;
+	}
+	.nav > li > a {
+		padding: 3px !important;
+		color:#918b84 !important;
+	}
+	.news .side p {
+	    padding-bottom: 20px;
+	}
+	.news .side img {
+	    width: 100%;
+	    height: 0;
+	    padding-bottom: 57.14%;
+	    margin-bottom: 50px;
+	}
+	.container.cover {
+	min-height: calc(100% - 200px) !important;
+	margin-left: auto;
+	}
+	.navbar-default .navbar-brand {
+	    display: block;
+	    width: 100%;
+	}
+	.navbar-default .navbar-brand img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav > li > a {
+		height:75px !important;
+	}
+	.nav {
+		text-align: center;
+		margin-bottom:-20px;
+	}
+	.btn .badge {
+		display:none;
+	}
+.container.cover {
+min-height: calc(100% - 230px) !important;
+}
+.news .side h5 {
+    padding-bottom: 30px;
+}
+.side {
+    padding: 0 32px;
+}
+
+
+	
+}
